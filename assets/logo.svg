@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="190 108 480 450">
+  <style>
+    .link { stroke: #6366f1; }
+    .star { fill: #3b82f6; }
+    .core { fill: #8b5cf6; }
+    @media (prefers-color-scheme: dark) {
+      .link { stroke: #c7d2fe; }
+      .star { fill: #fff; }
+      .core { fill: #e9e3ff; }
+    }
+  </style>
+  <ellipse cx="435" cy="350" rx="236" ry="50" transform="rotate(-21.5 435 350)" fill="none" stroke="#8b5cf6" stroke-width="16"/>
+  <path class="link" d="M385 158V505M385 158L520 245L385 312M520 245L480 388L385 312L287 446" fill="none" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="star">
+    <circle cx="385" cy="158" r="40"/><circle cx="520" cy="245" r="38"/><circle cx="480" cy="388" r="38"/>
+    <circle cx="287" cy="446" r="36"/><circle cx="385" cy="505" r="40"/>
+  </g>
+  <circle class="core" cx="385" cy="312" r="42"/>
+</svg>
